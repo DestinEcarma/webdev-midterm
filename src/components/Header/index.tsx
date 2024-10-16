@@ -1,12 +1,12 @@
 import React from "react";
-import AddToDo from "./AddTodo";
+import AddButton from "./AddButton";
 
 const Header: React.FC = () => {
 	return (
-		<div className="screen">
+		<div className="screen top-0">
 			<div className="mb-4 flex items-center justify-between border-b pb-4">
 				<h1 className="text-2xl font-semibold">ToDo App</h1>
-				<AddToDo />
+				<AddButton />
 			</div>
 		</div>
 	);
