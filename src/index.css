@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.screen {
+		@apply px-[12%] py-2;
+	}
+
+	@media (max-width: 1500px) {
+		.screen {
+			@apply px-[7%];
+		}
+	}
+
+	@media (max-width: 1000px) {
+		.screen {
+			@apply px-[10px] py-[20px];
+		}
+	}
+}
